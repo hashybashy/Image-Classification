@@ -14,12 +14,12 @@ The core of the project is a Convolutional Neural Network (CNN), a type of deep 
 Rather than manually defining what makes a car different from a deer, the network learns useful visual features from the training images
 
 The pipeline I worked through:
-Loading the data — importing the CIFAR-10 dataset and separating the images into training and testing sets
-Preprocessing — normalising pixel values from 0–255 to 0–1, giving the network consistent numerical inputs
-Feature extraction — using convolutional layers to learn visual patterns, from simpler features such as edges to more complex combinations of patterns
-Pooling — reducing the spatial dimensions of the feature maps while retaining useful information
-Classification — flattening the extracted features and passing them through dense layers to produce predictions across the 10 classes
-Training — using the Adam optimiser to update the network's weights and sparse categorical cross-entropy to measure prediction error over multiple epochs
+Loading the data: importing the CIFAR-10 dataset and separating the images into training and testing sets
+Preprocessing: normalising pixel values from 0–255 to 0–1, giving the network consistent numerical inputs
+Feature extraction: using convolutional layers to learn visual patterns, from simpler features such as edges to more complex combinations of patterns
+Pooling: reducing the spatial dimensions of the feature maps while retaining useful information
+Classification: flattening the extracted features and passing them through dense layers to produce predictions across the 10 classes
+Training: using the Adam optimiser to update the network's weights and sparse categorical cross-entropy to measure prediction error over multiple epochs
 
 The final layer uses softmax to produce a probability score for each class. The class with the highest score becomes the model's prediction
 
