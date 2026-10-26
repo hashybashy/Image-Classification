@@ -6,7 +6,7 @@ This project has been a hands-on way for me to understand how neural networks le
 ### What does it actually do ?
 The model is trained on the CIFAR-10 dataset, which contains 60,000 small colour images across 10 different classes
 These include:
-✈️ Aeroplanes · 🚗 Cars · 🐦 Birds · 🐱 Cats · 🦌 Deer · 🐶 Dogs · 🐸 Frogs · 🐴 Horses · 🚢 Ships · 🚚 Trucks
+ Aeroplanes·Cars·Birds·Cats·Deer·Dogs·Frogs·Horses·Ships·Trucks
 The aim is to train a model that can identify which category an image belongs to, then test it on images it hasn't seen before
 
 ### How it works !!!
